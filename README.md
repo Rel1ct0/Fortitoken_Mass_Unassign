@@ -1,5 +1,6 @@
 # Fortitoken_Mass_Unassign
 
-Mass unassign of Fortitoken for LDAP users on FortiAuthenticator
+Mass unassign of Fortitokens for LDAP users on FortiAuthenticator
+Requires REST API administrator account and access key
 
 Usage: ./DeleteTokens \<FortiAuthIP\> \<ApiAdminUsername\> \<ApiAdminKey\>
