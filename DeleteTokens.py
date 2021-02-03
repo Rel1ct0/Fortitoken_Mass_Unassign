@@ -2,7 +2,7 @@ import requests
 import sys
 import json
 import warnings
-from pprint import pprint
+
 
 KillToken = {
     'token_auth': False,
@@ -42,7 +42,7 @@ for nextuser in userList:
                           verify=False)
         if done.status_code < 300:
             print(f'Ok, token removed for {nextuser["username"]}')
-            ++usercounter
+            usercounter = usercounter + 1
         else:
             print(f"Got error {done.status_code} for user {nextuser['id']}")
             print(done.content)
