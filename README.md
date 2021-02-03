@@ -2,4 +2,4 @@
 
 Mass unassign of Fortitoken for LDAP users on FortiAuthenticator
 
-Usage: ./DeleteTokens <FortiAuthIP> <ApiAdminUsername> <ApiAdminKey>
+Usage: ./DeleteTokens \<FortiAuthIP\> \<ApiAdminUsername\> \<ApiAdminKey\>
